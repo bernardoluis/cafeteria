@@ -35,7 +35,7 @@ include "view/head.php";
 
       <button type="submit" class="btn btn-primary" name="nuevoRegistro" value="ok"> Crear </button>
 
-      <a href="http://localhost/CAFETERIA/" class="btn"  >Volver</a>
+      <a href="<?= $RUTA ?>" class="btn"  >Volver</a>
     </form>
    </div>
  </div>

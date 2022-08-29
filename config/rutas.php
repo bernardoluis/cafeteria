@@ -1,3 +1,3 @@
 <?php
-  $RUTA = "http://localhost/CAFETERIA/"; 
+  $RUTA = "http://localhost/cafeteria%201/"; 
 ?>

@@ -33,7 +33,7 @@ $pr = $con->query("select * from productos where id=$id");
            <input type="number" class="form-control" name="stock" aria-describedby="emailHelp" placeholder="stock" value="<?= $data->stock ?>">
          </div>
          <button type="submit" class="btn btn-primary" name="btneditarProducto" value="ok"> Actualizar </button>
-         <a href="http://localhost/CAFETERIA/" class="btn"  >Volver</a>
+         <a href="<?= $RUTA ?>" class="btn"  >Volver</a>
          <?php } ?>
     </form>
          
